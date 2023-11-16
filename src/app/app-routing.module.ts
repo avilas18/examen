@@ -22,7 +22,11 @@ const routes: Routes = [
   {
     path: 'input',
     loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
+  },  {
+    path: 'avatar',
+    loadChildren: () => import('./pages/avatar/avatar.module').then( m => m.AvatarPageModule)
   },
+
   
 ];
 
