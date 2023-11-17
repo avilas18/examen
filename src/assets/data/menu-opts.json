@@ -1,6 +1,6 @@
 [
     {
-      "icon": "american-football-outline",
+      "icon": "skull-outline",
       "name": "Action Sheet",
       "redirectTo": "/action-sheet"
     },
@@ -10,9 +10,19 @@
       "redirectTo": "/alert"
     },
     {
-        "icon": "beaker-outline",
+        "icon": "person-circle-outline",
         "name": "Avatar",
         "redirectTo": "/avatar"  
+    },
+    {
+      "icon":"stop-circle-outline",
+      "name":"Button",
+      "redirectTo":"/button"
+    },
+    {
+      "icon": "walk-outline",
+      "name": "Input",
+      "redirectTo": "/input"
     }
 
   ]
