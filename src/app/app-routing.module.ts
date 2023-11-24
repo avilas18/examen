@@ -16,8 +16,6 @@ const routes: Routes = [
     loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
   }
 ];
-
-
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })

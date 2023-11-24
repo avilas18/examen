@@ -1,7 +1,12 @@
 [
-    {
+  {
       "icon": "hammer-outline",
       "name": "Input Forms",
+      "redirectTo":"/input"
+  },
+    {
+      "icon": "walk-outline",
+      "name": "Input",
       "redirectTo": "/input"
     }
 
